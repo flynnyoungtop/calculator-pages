@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniCalc - Technical Support / 技术支持</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; background: #f5f5f7; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        .card { background: #fff; border-radius: 16px; padding: 40px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+        h1 { font-size: 28px; margin-bottom: 8px; color: #1d1d1f; }
+        h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; color: #1d1d1f; }
+        h3 { font-size: 17px; margin-top: 20px; margin-bottom: 8px; color: #1d1d1f; }
+        p, li { font-size: 15px; color: #424245; margin-bottom: 12px; }
+        ul { padding-left: 20px; }
+        .subtitle { font-size: 16px; color: #86868b; margin-bottom: 24px; }
+        .lang-switch { text-align: right; margin-bottom: 16px; }
+        .lang-switch a { font-size: 14px; color: #0071e3; text-decoration: none; }
+        .section { display: none; }
+        .section.active { display: block; }
+        .faq { background: #f5f5f7; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+        .faq h3 { margin-top: 0; }
+        .contact-box { background: #0071e3; color: #fff; border-radius: 12px; padding: 24px; margin-top: 24px; text-align: center; }
+        .contact-box p { color: #fff; }
+        .contact-box a { color: #fff; font-weight: 600; }
+        .nav { text-align: center; margin-top: 24px; }
+        .nav a { color: #0071e3; text-decoration: none; font-size: 15px; }
+        hr { border: none; border-top: 1px solid #e5e5e5; margin: 24px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="lang-switch">
+                <a href="#" onclick="switchLang('zh')">中文</a> | <a href="#" onclick="switchLang('en')">English</a>
+            </div>
+
+            <!-- Chinese Version -->
+            <div id="zh" class="section active">
+                <h1>技术支持</h1>
+                <p class="subtitle">OmniCalc 计算器</p>
+
+                <h2>常见问题</h2>
+
+                <div class="faq">
+                    <h3>如何查看计算历史？</h3>
+                    <p>在计算器主界面向上滑动或点击历史记录按钮，即可查看所有计算历史。您可以创建多个计算页来分类管理不同的计算记录。</p>
+                </div>
+
+                <div class="faq">
+                    <h3>如何切换主题/深色模式？</h3>
+                    <p>进入设置页面，您可以选择浅色、深色或跟随系统的显示模式，还可以自定义键盘配色方案。</p>
+                </div>
+
+                <div class="faq">
+                    <h3>如何切换语言？</h3>
+                    <p>在设置页面中，您可以在中文和英文之间切换应用语言。</p>
+                </div>
+
+                <div class="faq">
+                    <h3>支持哪些运算？</h3>
+                    <p>OmniCalc 支持加、减、乘、除四则运算，支持括号嵌套、百分比计算，并严格遵循运算优先级。</p>
+                </div>
+
+                <div class="faq">
+                    <h3>我的数据安全吗？</h3>
+                    <p>所有计算数据和设置均存储在您的设备本地，不会上传至任何服务器。详情请查看我们的<a href="privacy.html">隐私政策</a>。</p>
+                </div>
+
+                <h2>系统要求</h2>
+                <ul>
+                    <li>iOS 17.0 或更高版本</li>
+                    <li>兼容 iPhone 和 iPad</li>
+                </ul>
+
+                <div class="contact-box">
+                    <p>遇到问题？请联系我们</p>
+                    <p><a href="mailto:nicephoton@outlook.com">nicephoton@outlook.com</a></p>
+                </div>
+            </div>
+
+            <!-- English Version -->
+            <div id="en" class="section">
+                <h1>Technical Support</h1>
+                <p class="subtitle">OmniCalc Calculator</p>
+
+                <h2>FAQ</h2>
+
+                <div class="faq">
+                    <h3>How do I view calculation history?</h3>
+                    <p>Swipe up on the calculator main screen or tap the history button to view all calculation history. You can create multiple calc pages to organize different calculations.</p>
+                </div>
+
+                <div class="faq">
+                    <h3>How do I switch themes/dark mode?</h3>
+                    <p>Go to Settings, where you can choose light, dark, or system-following display mode, and customize the keyboard color scheme.</p>
+                </div>
+
+                <div class="faq">
+                    <h3>How do I change the language?</h3>
+                    <p>In Settings, you can switch between Chinese and English.</p>
+                </div>
+
+                <div class="faq">
+                    <h3>What operations are supported?</h3>
+                    <p>OmniCalc supports addition, subtraction, multiplication, and division with nested parentheses, percentage calculations, and strict operator precedence.</p>
+                </div>
+
+                <div class="faq">
+                    <h3>Is my data safe?</h3>
+                    <p>All calculation data and settings are stored locally on your device and are never uploaded to any server. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
+                </div>
+
+                <h2>System Requirements</h2>
+                <ul>
+                    <li>iOS 17.0 or later</li>
+                    <li>Compatible with iPhone and iPad</li>
+                </ul>
+
+                <div class="contact-box">
+                    <p>Need help? Contact us</p>
+                    <p><a href="mailto:nicephoton@outlook.com">nicephoton@outlook.com</a></p>
+                </div>
+            </div>
+
+            <hr>
+            <div class="nav">
+                <a href="privacy.html">Privacy Policy / 隐私政策</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            document.getElementById(lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>
